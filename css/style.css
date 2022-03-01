@@ -1,1 +1,217 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p,
+a,
+label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff1ca;
+}
+.logo {
+  height: 100px;
+  width: 250px;
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 30px;
+  align-self: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+nav ul li a:hover {
+  color: white;
+}
+button {
+  cursor: pointer;
+  margin-right: 30px;
+  background-color: #cb8721;
+  border: none;
+  border-radius: 50px;
+  width: 120px;
+  height: 25px;
+}
+button:hover {
+  background-color: #897556fa;
+}
+.encomendefoto {
+  width: 100%;
+  height: 5%;
+  opacity: 0.9;
+}
+.encomende {
+  position: relative;
+  width: 100%;
+}
+.encomendemaisbtn {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.deliverytext {
+  margin-left: 20%;
+  color: white;
+  font-size: 96px;
+  align-self: center;
+  font-style: italic;
+}
+.btn {
+  margin-left: 50%;
+  height: 50px;
+  width: 150px;
+  background-color: #b9bbb3;
+}
+.menuside {
+  width: 100%;
+  height: 700px;
+  background-color: #fff3d9;
+  position: relative;
+}
+.burgersside {
+  position: absolute;
+  left: 40%;
+  margin-top: 4%;
+  text-align: center;
+  color: #434343;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  margin-top: 10%;
+  padding: 30px;
+}
+
+.card1 {
+  height: 400px;
+  width: 20%;
+  background-color: #ffe394;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+}
+.card2 {
+  height: 400px;
+  width: 20%;
+  background-color: #ffe394;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+}
+.card3 {
+  height: 400px;
+  width: 20%;
+  background-color: #ffe394;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+}
+.cardimg {
+  height: 60%;
+  width: 100%;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+.descriptionfood {
+  font-style: italic;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.titlefood {
+  font-weight: bold;
+  font-size: 18px;
+}
+.btnprovar {
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.sobre {
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.footerfoto {
+  height: 50px;
+  width: 150px;
+  margin-top: 130px;
+  margin-left: 70px;
+}
+.sobredatalhada {
+  display: flex;
+  justify-content: space-between;
+}
+.sobre2 {
+  height: 120px;
+}
+.descrtipioncompany {
+  font-style: italic;
+  margin-top: 150px;
+}
+.qrcode {
+  margin-top: 130px;
+  height: 120px;
+  width: 120px;
+  margin-right: 60px;
+}
+
+.deliveryphoto {
+  height: 120%;
+  width: 50%;
+}
+.deliveryright {
+  float: right;
+  margin-top: -400px;
+  margin-right: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.titlepage {
+  font-size: 40px;
+  font-style: italic;
+  color: #cb8721;
+  margin: 20px;
+}
+
+.inputuser {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  margin: 10px;
+}
+.btn3 {
+  margin-left: 100px;
+  margin-top: 30px;
+  height: 30px;
+}
